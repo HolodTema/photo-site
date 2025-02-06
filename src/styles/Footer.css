@@ -1,0 +1,72 @@
+
+.footer {
+    justify-items: center;
+}
+
+
+.div_footer_columns {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_footer_column_logo_info {
+    width: 250px;
+}
+
+.img_footer_logo {
+    display: block;
+}
+
+.p_footer_logo_text {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.div_footer_column_pages {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.div_footer_column_contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.div_footer_contacts_icons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+}
+
+.div_footer_contacts_email, .div_footer_contacts_phone {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.img_footer_contacts_email, .img_footer_contacts_phone {
+    height: 30px;
+    width: 30px;
+}
+
+.div_footer_projects_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    column-gap: 10px;
+    max-width: 230px;
+    margin-top: 10px;
+}
+
+.div_footer_developer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #121212;
+    font-size: 13px;
+    color: #ccc;
+    width: 100%;
+}

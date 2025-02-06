@@ -1,18 +1,16 @@
-
-.div_header_button {
+.div_footer_page_button {
     justify-items: center;
 }
 
-.a_header_button {
+.a_footer_page_button {
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
     color: #fff;
-    font-weight: 700;
     font-size: 15px;
 }
 
-.div_header_button_line {
+.div_footer_page_button_line {
     height: 2px;
     background-color: #000;
     width: 100%;
@@ -20,6 +18,6 @@
     transition: background-color 0.3s;
 }
 
-.div_header_button:hover .div_header_button_line {
+.div_footer_page_button:hover .div_footer_page_button_line {
     background-color: #fff;
 }

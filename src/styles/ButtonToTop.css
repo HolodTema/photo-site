@@ -1,0 +1,16 @@
+
+.img_button_to_top {
+    background-color: black;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    transition: background-color 0.3s;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.img_button_to_top:hover {
+    background-color: #1d1d1d;
+}

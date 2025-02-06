@@ -6,7 +6,7 @@ class HeaderButton extends React.Component {
         return (
             <div className="div_header_button">
                 <a className="a_header_button" href={this.props.href}>{this.props.text}</a>
-                <img className="img_header_button_line" src="" alt=""/>
+                <div className="div_header_button_line"/>
             </div>
         )
     }

@@ -1,0 +1,68 @@
+
+.div_section_home {
+    justify-items: center;
+}
+
+.div_home_contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.div_home_email_phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.div_home_email, .div_home_phone {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.img_home_email {
+    width: 30px;
+    height: 30px;
+}
+
+.img_home_phone {
+    width: 30px;
+    height: 30px;
+}
+
+.div_home_socials {
+    display: flex;
+    gap: 10px;
+}
+
+.div_home_projects_caption {
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.div_home_projects_caption_line {
+    height: 2px;
+    width: 250px;
+    background-color: #fff;
+}
+
+.p_home_projects_caption {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.div_home_project_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
