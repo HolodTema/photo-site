@@ -1,0 +1,16 @@
+
+.div_header_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.a_header_button {
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
