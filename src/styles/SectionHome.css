@@ -60,8 +60,8 @@
 .div_home_project_cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    column-gap: 20px;
+    gap: 30px;
+    column-gap: 30px;
     align-items: center;
     justify-content: center;
 }
