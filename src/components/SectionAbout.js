@@ -4,10 +4,16 @@ import Container from "./Container";
 import AboutDecorSignImage from '../images/about_decor_sign.png'
 import FeedbackSlider from "./FeedbackSlider";
 import AboutSkillItem from "./AboutSkillItem";
+import CompanyItem from "./CompanyItem";
 import AboutSkillItemPortraitImage from '../images/about_skill_item_portrait.webp'
 import AboutSkillItemFashionImage from '../images/about_skill_item_fashion.webp'
 import AboutSkillItemWeddingImage from '../images/about_skill_item_wedding.webp'
 import AboutSkillItemTravelImage from '../images/about_skill_item_travel.webp'
+import CompanyPhotocasaImage from '../images/company_photocasa.svg'
+import CompanyHuionImage from '../images/company_huion.png'
+import CompanyAutotradeImage from '../images/company_autotrade.png'
+import CompanyWalkingwayImage from '../images/company_walkingway.png'
+import CompanyMetrikaImage from '../images/company_metrika.png'
 
 class SectionAbout extends React.Component {
     render() {
@@ -52,6 +58,20 @@ class SectionAbout extends React.Component {
 
                             <AboutSkillItem src={AboutSkillItemTravelImage} header="travel photos"
                                             desc="Proin ultricies augue libero, faucibus elit elementum sed dolor felis, cursus non diam non, finibus feugiat dui, a facilisis urna a ex magna"/>
+                        </div>
+
+                    </Container>
+                    <div className="div_company_header">
+                        <div className="div_company_header_line"></div>
+                        <p className="p_company_header">МНЕ ДОВЕРЯЮТ</p>
+                    </div>
+                    <Container>
+                        <div className="div_company_items">
+                            <CompanyItem src={CompanyPhotocasaImage} header="Photocasa" desc="Интернет-журнал о фотографии"/>
+                            <CompanyItem src={CompanyHuionImage} header="Huion" desc="Производитель фотооборудования"/>
+                            <CompanyItem src={CompanyAutotradeImage} header="АвтоТрейд" desc="Федеральная сеть СТО"/>
+                            <CompanyItem src={CompanyWalkingwayImage} header="WalkingWay" desc="Производитель фотооборудования"/>
+                            <CompanyItem src={CompanyMetrikaImage} header="Metrika" desc="Продакшн-компания из Иркутска"/>
                         </div>
                     </Container>
                     <FeedbackSlider/>

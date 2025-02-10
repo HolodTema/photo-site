@@ -1,0 +1,58 @@
+
+.div_company_item {
+    position: relative;
+}
+
+.img_company_item {
+    width: 200px;
+    object-fit: contain;
+    height: 150px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.img_company_item:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+
+.div_company_item_window {
+    position: absolute;
+    padding: 10px;
+    min-width: 150px;
+    background-color: rgba(29, 29, 29, 0);
+    border-radius: 10px;
+    z-index: 10;
+    top: 100px;
+    left: 150px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+.div_company_item:hover .div_company_item_window {
+    background-color: #1d1d1d;
+}
+
+.p_company_item_window_header {
+    background-color: transparent;
+    text-align: center;
+    font-size: 20px;
+    color: transparent;
+    transition: color 0.3s;
+}
+.div_company_item:hover .p_company_item_window_header {
+    color: white;
+}
+
+.p_company_item_window_desc {
+    text-align: center;
+    transition: color 0.3s;
+    color: transparent;
+    background-color: transparent;
+}
+.div_company_item:hover .p_company_item_window_desc {
+    color: white;
+}

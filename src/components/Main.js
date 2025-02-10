@@ -9,8 +9,8 @@ class Main extends React.Component {
     render() {
         return (
             <main>
-                <SectionPrice/>
-                {/*<SectionAbout/>*/}
+                {/*<SectionPrice/>*/}
+                <SectionAbout/>
                 {/*<SectionHome/>*/}
             </main>
         )
