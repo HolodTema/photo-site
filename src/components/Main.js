@@ -10,8 +10,8 @@ class Main extends React.Component {
         return (
             <main>
                 {/*<SectionPrice/>*/}
-                <SectionAbout/>
-                {/*<SectionHome/>*/}
+                {/*<SectionAbout/>*/}
+                <SectionHome/>
             </main>
         )
     }
