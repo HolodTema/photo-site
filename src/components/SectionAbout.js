@@ -24,7 +24,7 @@ class SectionAbout extends React.Component {
                 <div className="div_about_сontainer">
                     <Container>
                         <div className="div_about_image">
-                            <p className="p_about_image_text_top">МЕНЯ ЗОВУТ</p>
+                            <p className="p_about_image_text_top">ВИДЕОГРАФ</p>
                             <p className="p_about_image_text_bottom">ХОЛОДИЛОВА АНАСТАСИЯ</p>
                         </div>
                         <p className="p_about_desc1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam

@@ -1,0 +1,46 @@
+
+.div_price_header {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.div_price_header_line {
+    background-color: #a2a2a2;
+    height: 1px;
+    width: 200px;
+}
+
+.div_price_header_text {
+    position: relative;
+}
+.p_price_header {
+    font-size: 30px;
+    position: relative;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.p_price_header_shadow {
+    position: absolute;
+    right: -250px;
+    font-size: 50px;
+    width: 500px;
+    background-color: transparent;
+    color: #414141;
+    top: -12px;
+    z-index: 1;
+}
+
+.div_price_items_container {
+    justify-items: center;
+    margin: 30px 0;
+}
+
+.div_price_items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
