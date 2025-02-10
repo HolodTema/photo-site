@@ -2,17 +2,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("../images/background_header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .header .container {
     display: flex;
     padding: 30px 0;
     justify-content: space-between;
+    background-color: transparent;
 }
 
 .img_header_logo {
     width: 200px;
     height: 60px;
+    background-color: transparent;
 }   
 
 .div_header_buttons {
@@ -21,4 +27,5 @@
     gap: 30px;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
 }

@@ -1,0 +1,19 @@
+
+.a_button_contacts_form {
+    width: 150px;
+    height: 40px;
+    border: 1px #fff solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #121212;
+    color: white;
+    cursor: pointer;
+}
+
+.a_button_contacts_form:hover {
+    background-color: white;
+    color: black;
+}
+

@@ -1,0 +1,31 @@
+
+.div_about_skill_item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.div_about_skill_item_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.img_about_skill_item {
+    width: 50px;
+    height: 50px;
+}
+
+.p_about_skill_item_header {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.p_about_skill_item_desc {
+    color: #a2a2a2;
+}

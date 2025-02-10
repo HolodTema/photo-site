@@ -1,0 +1,102 @@
+
+.div_feedback_slider {
+    background-color: #121212;
+    width: 100%;
+}
+
+.div_feedback_header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #121212;
+    padding-top: 20px;
+}
+
+.div_feedback_header_line {
+    width: 200px;
+    height: 1px;
+    background-color: #a2a2a2;
+
+}
+
+.p_feedback_header {
+    font-size: 24px;
+    text-transform: uppercase;
+    background-color: #121212;
+}
+
+.div_feedback_card_container {
+    justify-items: center;
+    background-color: #121212;
+}
+
+.div_feedback_card {
+    background-color: #121212;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+
+}
+
+.img_feedback_card {
+    min-width: 200px;
+    max-width: 200px;
+    width: 200px;
+    height: 200px;
+    max-height: 200px;
+    min-height: 200px;
+    object-fit: fill;
+    border-radius: 150px;
+}
+
+.div_feedback_card_text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #121212;
+
+}
+
+.p_feedback_card_message {
+    color: #a2a2a2;
+    font-style: italic;
+    padding-right: 80px;
+    background-color: #121212;
+}
+
+.p_feedback_card_name {
+    text-transform: uppercase;
+    color: white;
+    background-color: #121212;
+}
+
+.p_feedback_card_profession {
+    color: white;
+    background-color: #121212;
+}
+
+.div_feedback_buttons {
+    display: flex;
+    justify-content: right;
+    background-color: #121212;
+    padding-bottom: 20px;
+}
+
+.img_feedback_button_left {
+    padding: 5px;
+    border: 1px #a2a2a2 solid;
+    transition: border 0.3s;
+}
+.img_feedback_button_left:hover {
+    border: 1px white solid;
+}
+.img_feedback_button_right{
+    padding: 5px;
+    border: 1px #a2a2a2 solid;
+    transition: border 0.3s;
+}
+.img_feedback_button_right:hover {
+    border: 1px white solid;
+}

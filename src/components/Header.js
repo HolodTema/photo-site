@@ -11,8 +11,8 @@ class Header extends React.Component {
                 <Container>
                     <img className="img_header_logo" src={HeaderLogoImage} alt=""/>
                     <div className="div_header_buttons">
-                        <HeaderButton text="Обо мне" href=""/>
                         <HeaderButton text="Портфолио" href=""/>
+                        <HeaderButton text="Обо мне" href=""/>
                         <HeaderButton text="Цены" href=""/>
                         <HeaderButton text="Контакты" href=""/>
                     </div>
