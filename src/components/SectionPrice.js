@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/SectionPrice.css'
 import PriceItem from "./PriceItem";
 import Container from "./Container";
+import FormWriteMe from "./FormWriteMe";
 
 class SectionPrice extends React.Component {
     render() {
@@ -23,6 +24,7 @@ class SectionPrice extends React.Component {
                         </div>
                     </Container>
                 </div>
+                <FormWriteMe/>
             </div>
         );
     }

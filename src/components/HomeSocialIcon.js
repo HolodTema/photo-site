@@ -2,12 +2,12 @@ import React from "react"
 import '../styles/HomeSocialIcon.css'
 
 
-class HomeSocialIcon extends React.Component {
-    render() {
-        return (
-            <img className="img_home_social" src={this.props.src} alt=""/>
-        );
-    }
-}
+export default function HomeSocialIcon(props) {
 
-export default HomeSocialIcon
+    function handleClick() {
+        document.location.href = props.href
+    }
+    return (
+        <img className="img_home_social" onClick={handleClick} src={props.src} alt=""/>
+    );
+}

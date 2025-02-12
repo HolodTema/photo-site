@@ -10,6 +10,8 @@ import SocialTelegramImage from '../images/footer_contact_telegram.png'
 import HomeSocialIcon from "./HomeSocialIcon";
 import HomeProjectCard from "./HomeProjectCard";
 import HomeProjectCardImage from '../images/home_project_card.jpg'
+import * as ConstFile from '../util/const'
+
 class SectionHome extends React.Component {
     render() {
         return (
@@ -32,9 +34,9 @@ class SectionHome extends React.Component {
                             </div>
                         </div>
                         <div className="div_home_socials">
-                            <HomeSocialIcon src={SocialVkImage}/>
-                            <HomeSocialIcon src={SocialTelegramImage}/>
-                            <HomeSocialIcon src={SocialInstaImage}/>
+                            <HomeSocialIcon href="https://vk.com/nastyaho" src={SocialVkImage}/>
+                            <HomeSocialIcon href="https://t.me/videodiva" src={SocialTelegramImage}/>
+                            <HomeSocialIcon href="https://www.instagram.com/ananas_tica" src={SocialInstaImage}/>
                         </div>
                     </div>
                 </Container>
@@ -44,15 +46,15 @@ class SectionHome extends React.Component {
                 </div>
                 <Container >
                     <div className="div_home_project_cards">
-                        <HomeProjectCard src={HomeProjectCardImage}/>
-                        <HomeProjectCard src={HomeProjectCardImage}/>
-                        <HomeProjectCard src={HomeProjectCardImage}/>
-                        <HomeProjectCard src={HomeProjectCardImage}/>
-                        <HomeProjectCard src={HomeProjectCardImage}/>
-                        <HomeProjectCard src={HomeProjectCardImage}/>
-                        <HomeProjectCard src={HomeProjectCardImage}/>
-                        <HomeProjectCard src={HomeProjectCardImage}/>
-                        <HomeProjectCard src={HomeProjectCardImage}/>
+                        <HomeProjectCard src={HomeProjectCardImage} dest={ConstFile.PAGE_PROJECT1}/>
+                        <HomeProjectCard src={HomeProjectCardImage} dest={ConstFile.PAGE_PROJECT2}/>
+                        <HomeProjectCard src={HomeProjectCardImage} dest={ConstFile.PAGE_PROJECT3}/>
+                        <HomeProjectCard src={HomeProjectCardImage} dest={ConstFile.PAGE_PROJECT4}/>
+                        <HomeProjectCard src={HomeProjectCardImage} dest={ConstFile.PAGE_PROJECT5}/>
+                        <HomeProjectCard src={HomeProjectCardImage} dest={ConstFile.PAGE_PROJECT6}/>
+                        <HomeProjectCard src={HomeProjectCardImage} dest={ConstFile.PAGE_PROJECT7}/>
+                        <HomeProjectCard src={HomeProjectCardImage} dest={ConstFile.PAGE_PROJECT8}/>
+                        <HomeProjectCard src={HomeProjectCardImage} dest={ConstFile.PAGE_PROJECT9}/>
                     </div>
                 </Container>
             </div>

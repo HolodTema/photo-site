@@ -41,9 +41,9 @@ class Footer extends React.Component {
                         <div className="div_footer_column_contacts">
                             <p className="p_footer_contacts_title">КОНТАКТЫ</p>
                             <div className="div_footer_contacts_icons">
-                                <FooterContactIcon src={FooterContactIconVk}/>
-                                <FooterContactIcon src={FooterContactIconTelegram}/>
-                                <FooterContactIcon src={FooterContactIconInsta}/>
+                                <FooterContactIcon src={FooterContactIconVk} href="https://vk.com/nastyaho"/>
+                                <FooterContactIcon src={FooterContactIconTelegram} href="https://t.me/videodiva"/>
+                                <FooterContactIcon src={FooterContactIconInsta} href="https://www.instagram.com/ananas_tica"/>
                             </div>
                             <div className="div_footer_contacts_email">
                                 <img className="img_footer_contacts_email" src={FooterContactIconEmail} alt=""/>
@@ -57,12 +57,12 @@ class Footer extends React.Component {
                         <div className="div_footer_column_projects">
                             <p className="p_footer_projects_title">ПРОЕКТЫ</   p>
                             <div className="div_footer_projects_images">
-                                <FooterProjectImage src={FooterProjectImage1}/>
-                                <FooterProjectImage src={FooterProjectImage2}/>
-                                <FooterProjectImage src={FooterProjectImage3}/>
-                                <FooterProjectImage src={FooterProjectImage4}/>
-                                <FooterProjectImage src={FooterProjectImage5}/>
-                                <FooterProjectImage src={FooterProjectImage6}/>
+                                <FooterProjectImage src={FooterProjectImage1} dest={ConstFile.PAGE_PROJECT1}/>
+                                <FooterProjectImage src={FooterProjectImage2} dest={ConstFile.PAGE_PROJECT2}/>
+                                <FooterProjectImage src={FooterProjectImage3} dest={ConstFile.PAGE_PROJECT3}/>
+                                <FooterProjectImage src={FooterProjectImage4} dest={ConstFile.PAGE_PROJECT4}/>
+                                <FooterProjectImage src={FooterProjectImage5} dest={ConstFile.PAGE_PROJECT5}/>
+                                <FooterProjectImage src={FooterProjectImage6} dest={ConstFile.PAGE_PROJECT6}/>
                             </div>
                         </div>
                     </div>
