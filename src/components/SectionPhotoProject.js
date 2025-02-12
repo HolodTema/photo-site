@@ -12,6 +12,7 @@ export default function SectionPhotoProject(props) {
 
     function backToPortfolio() {
         dispatch(portfolio())
+        window.scrollTo(0, 0)
     }
     return (
         <div className="div_section_photo_project">

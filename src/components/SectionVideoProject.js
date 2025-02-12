@@ -12,6 +12,7 @@ export default function SectionVideoProject(props) {
 
     function backToPortfolio() {
         dispatch(portfolio())
+        window.scrollTo(0, 0)
     }
 
     return (

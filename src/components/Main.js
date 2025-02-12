@@ -25,7 +25,7 @@ export default function Main() {
         return (<SectionContacts/>)
     }
     else if (page === ConstFile.PAGE_PROJECT1) {
-        return (<SectionPhotoProject number="1"/>)
+        return (<SectionVideoProject number="1"/>)
     }
     else if (page === ConstFile.PAGE_PROJECT2) {
         return (<SectionPhotoProject number="2"/>)

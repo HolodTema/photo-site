@@ -47,6 +47,7 @@ export default function HomeProjectCard(props) {
         if (props.dest === ConstFile.PAGE_PROJECT9) {
             dispatch(project9())
         }
+        window.scrollTo(0, 0)
     }
 
     return (

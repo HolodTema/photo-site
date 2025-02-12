@@ -29,6 +29,7 @@ export default function FooterProjectImage(props) {
         if (props.dest === ConstFile.PAGE_PROJECT6) {
             dispatch(project6())
         }
+        window.scrollTo(0, 0)
     }
 
     return (
