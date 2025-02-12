@@ -1,15 +1,37 @@
 import React from 'react'
 import '../styles/FooterPageButton.css'
+import {useDispatch, useSelector} from "react-redux";
+import * as ConstFile from "../util/const";
+import {about, contacts, portfolio, price} from "../redux/pageSlice";
 
-class FooterPageButton extends React.Component {
-    render() {
-        return(
-            <div className="div_footer_page_button">
-                <a className="a_footer_page_button" href={this.props.href}>{this.props.text}</a>
-                <div className="div_footer_page_button_line"></div>
-            </div>
-        )
+
+export default function FooterPageButton(props) {
+    const page = useSelector((state) => state.page.value)
+    const dispatch = useDispatch()
+
+    function handleClick() {
+        if (page === props.dest) {
+            return;
+        }
+
+        if (props.dest === ConstFile.PAGE_PORTFOLIO) {
+            dispatch(portfolio())
+        }
+        if (props.dest === ConstFile.PAGE_ABOUT) {
+            dispatch(about())
+        }
+        if (props.dest === ConstFile.PAGE_PRICE) {
+            dispatch(price())
+        }
+        if (props.dest === ConstFile.PAGE_CONTACTS) {
+            dispatch(contacts())
+        }
     }
-}
 
-export default FooterPageButton
+    return(
+        <div className={page === props.dest ? "div_footer_page_button_active" : "div_footer_page_button"}>
+            <a className="a_footer_page_button" onClick={handleClick} href="#">{props.text}</a>
+            <div className="div_footer_page_button_line"></div>
+        </div>
+    )
+}

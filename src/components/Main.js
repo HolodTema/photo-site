@@ -6,11 +6,12 @@ import SectionPrice from "./SectionPrice";
 import SectionPhotoProject from "./SectionPhotoProject";
 import SectionVideoProject from "./SectionVideoProject"
 import * as ConstFile from '../util/const'
-import {AppContext} from "../contexts/AppContext";
+import {useSelector} from "react-redux";
 
 
 export default function Main() {
-    const {page, checkoutAbout} = useContext(AppContext)
+    const page = useSelector((state) => state.page.value)
+    console.log(page)
     if (page === ConstFile.PAGE_PORTFOLIO) {
         return (<SectionHome/>)
     }

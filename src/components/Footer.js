@@ -16,6 +16,7 @@ import FooterProjectImage3 from '../images/footer_project3.jpg'
 import FooterProjectImage4 from '../images/footer_project4.jpg'
 import FooterProjectImage5 from '../images/footer_project5.jpg'
 import FooterProjectImage6 from '../images/footer_project6.jpg'
+import * as ConstFile from '../util/const'
 
 class Footer extends React.Component {
     render() {
@@ -32,10 +33,10 @@ class Footer extends React.Component {
                         </div>
                         <div className="div_footer_column_pages">
                             <p className="p_footer_pages_title">РАЗДЕЛЫ САЙТА</p>
-                            <FooterPageButton text="ОБО МНЕ"/>
-                            <FooterPageButton text="ПОРТФОЛИО"/>
-                            <FooterPageButton text="ЦЕНЫ"/>
-                            <FooterPageButton text="КОНТАКТЫ"/>
+                            <FooterPageButton dest={ConstFile.PAGE_PORTFOLIO} text="ПОРТФОЛИО"/>
+                            <FooterPageButton dest={ConstFile.PAGE_ABOUT} text="ОБО МНЕ"/>
+                            <FooterPageButton dest={ConstFile.PAGE_PRICE} text="ЦЕНЫ"/>
+                            <FooterPageButton dest={ConstFile.PAGE_CONTACTS} text="КОНТАКТЫ"/>
                         </div>
                         <div className="div_footer_column_contacts">
                             <p className="p_footer_contacts_title">КОНТАКТЫ</p>

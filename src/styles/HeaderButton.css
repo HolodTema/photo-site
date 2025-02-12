@@ -1,5 +1,5 @@
 
-.div_header_button {
+.div_header_button, .div_header_button_active {
     justify-items: center;
 }
 
@@ -12,9 +12,17 @@
     font-size: 15px;
 }
 
-.div_header_button_line {
+.div_header_button  .div_header_button_line {
     height: 2px;
     background-color: #000;
+    width: 100%;
+    margin-top: 5px;
+    transition: background-color 0.3s;
+}
+
+.div_header_button_active .div_header_button_line {
+    height: 2px;
+    background-color: #ffffff;
     width: 100%;
     margin-top: 5px;
     transition: background-color 0.3s;
@@ -23,3 +31,4 @@
 .div_header_button:hover .div_header_button_line {
     background-color: #fff;
 }
+

@@ -10,9 +10,17 @@
     font-size: 15px;
 }
 
-.div_footer_page_button_line {
+.div_footer_page_button .div_footer_page_button_line {
     height: 2px;
     background-color: #000;
+    width: 100%;
+    margin-top: 5px;
+    transition: background-color 0.3s;
+}
+
+.div_footer_page_button_active .div_footer_page_button_line {
+    height: 2px;
+    background-color: #fff;
     width: 100%;
     margin-top: 5px;
     transition: background-color 0.3s;
