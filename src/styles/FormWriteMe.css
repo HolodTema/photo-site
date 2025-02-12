@@ -65,7 +65,13 @@
     bottom: 0;
     right: 0;
 }
-
+.div_contacts_form_name_error {
+    background-color: #121212;
+}
+.p_contacts_form_name_error {
+    background-color: #121212;
+    font-size: 14px;
+}
 
 .div_contacts_form_phone {
     background-color: #121212;
@@ -89,6 +95,33 @@
     bottom: 0;
     right: 0;
 }
+.div_contacts_form_phone_error {
+    background-color: #121212;
+}
+.p_contacts_form_phone_error {
+    background-color: #121212;
+    color: red;
+    font-size: 14px;
+}
+
+
+.a_button_contacts_form {
+    width: 150px;
+    height: 40px;
+    border: 1px #fff solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #121212;
+    color: white;
+    cursor: pointer;
+}
+
+.a_button_contacts_form:hover {
+    background-color: white;
+    color: black;
+}
 
 
 
@@ -104,18 +137,38 @@
 }
 .input_contacts_form_message {
     font-size: 18px;
-    background-color: #121212;
+    border: 1px white solid;
+    background-color: #0e0e0e;
     width: 450px;
+    resize: none;
+    padding: 2px;
 }
-.div_contacts_form_message_line {
-    position: absolute;
-    width: 450px;
-    background-color: white;
-    height: 1px;
-    bottom: 0;
-    right: 0;
+.div_contacts_form_message_error {
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+}
+.p_contacts_form_message_error {
+    background-color: #121212;
+    color: red;
+    font-size: 14px;
+    text-align: right;
 }
 
-.div_contacts_form_inputs .container .a_button_contacts_form {
-    margin-top: 40px;
+
+.div_button_contacts_form {
+    background-color: #121212;
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.p_contacts_form_success {
+    font-size: 14px;
+    color: green;
+    background-color: #121212;
 }

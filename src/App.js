@@ -3,7 +3,6 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import './styles/main.css'
 import ButtonToTop from "./components/ButtonToTop";
-import Toast from './components/Toast'
 
 
 export default function App() {
@@ -12,7 +11,6 @@ export default function App() {
     return (
         <div className="app_root">
             <ButtonToTop/>
-            <Toast text="hello"/>
             <Header/>
             <Main id="main">
             </Main>

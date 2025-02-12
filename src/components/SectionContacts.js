@@ -6,7 +6,6 @@ import ContactItemEmailImage from '../images/contact_item_email.png'
 import ContactItemLocationImage from '../images/contact_item_location.png'
 import ContactItemTimeImage from '../images/contact_item_time.png'
 import '../styles/SectionContacts.css'
-import ButtonContactsForm from "./ButtonContactsForm";
 import FormWriteMe from "./FormWriteMe";
 
 class SectionContacts extends React.Component {
