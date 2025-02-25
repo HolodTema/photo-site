@@ -5,11 +5,16 @@ import {Provider} from "react-redux";
 import store from "./redux/store";
 
 
-const app = ReactDOMClient.createRoot(document.getElementById('app'));
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    window.location = "http://m.videoholod.ru/"
+}
+else {
+    const app = ReactDOMClient.createRoot(document.getElementById('app'));
 
+    app.render(
+        <Provider store={store}>
+            <App/>
+        </Provider>
+    )
+}
 
-app.render(
-    <Provider store={store}>
-        <App/>
-    </Provider>
-)

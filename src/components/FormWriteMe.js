@@ -17,6 +17,7 @@ export default function FormWriteMe(props) {
         const msg = document.querySelector(".input_contacts_form_message").value
         if (!errorNameVisibility && !errorMsgVisibility && errorPhoneText==="" && phone!=="" && name!=="" && msg!=="") {
             console.log("send to tg bot: " + name + " " + phone + " " + msg)
+            // sendFormToUsers(name, phone, msg)
             setTextSuccessVisibility(true)
         }
         else {
